@@ -3,10 +3,10 @@ import java.sql.SQLOutput;
 
 public class JavaDemo {
     public static void main(String[] args){
-        subtractProductAndSumSolution sol = new subtractProductAndSumSolution();
-        System.out.println(sol.subtractProductAndSum(1234));
+        int[] nums = {12,345,2,6,7896};
+        FindEvenNumbersSolution sol = new FindEvenNumbersSolution();
 
-
+        System.out.println(sol.FindNumbers(nums));
 
     }
 }
